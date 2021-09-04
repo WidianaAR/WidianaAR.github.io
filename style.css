@@ -10,3 +10,5 @@ img {-webkit-transform: scale(1);
 	transition: .3s ease-in-out;}
 img:hover {-webkit-transform: scale(1.1); transform: scale(1.1);}
 button:hover {background-color: grey; color: white}
+#tombol {border-radius: 15px; width: 500px; height: 50px; color: white; background: #FF9A00; font-size: 20px}
+#tombol:hover {background-color: #FFE898; color: black}

@@ -12,3 +12,9 @@ img:hover {-webkit-transform: scale(1.1); transform: scale(1.1);}
 button:hover {background-color: grey; color: white}
 #tombol {border-radius: 15px; width: 500px; height: 50px; color: white; background: #FF9A00; font-size: 20px}
 #tombol:hover {background-color: #FFE898; color: black}
+#isi2 {background-color: #F2F2F2; padding-left: 160px; height: 400px}
+#footer2 {height: 500px; padding-left: 240px; color: white; background-color: #FF9A00;}
+#footer2 td {padding-top: 10px; font-size: 20px}
+#footer2 td input {width:300px; height: 25px; border-radius: 10px; border: 0}
+#footer2 button {height: 40px; width: 60px; border-radius: 5px; border: 0; font-weight: bold; background-color: #4281F8; color: white}
+#footer2 button:hover {background-color: #A4C3FF; color:black;}

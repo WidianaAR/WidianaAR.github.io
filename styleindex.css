@@ -1,0 +1,25 @@
+body {margin: 0px; padding: 0px; background-color: #FFE898;}
+#header {height: 75px; padding-left: 110px}
+a.border-putih {background: #ffffff; border-radius: 10px; margin-top: 20px; padding: 10px 45px 10px 45px; 
+	color: #000000; cursor: pointer;}
+a.border-putih:hover {background: #F9A826; text-decoration: none;}
+#isi {background-color: white; padding-left: 110px; padding-right: 110px}
+.login h1{margin-left: 300px; color: #3F3D56; margin-top: 50px;}
+.login p{margin-left: 100px;}
+.login input{height: 25px; width: 500px; margin-left: 100px;}
+.span{cursor: pointer;}
+.fa{font-size: 20px;}
+.btn-login{width: 475px; height: 50px; border-radius: 15px; outline: none; border: none;
+	background-image: linear-gradient(to right, #F9A826, #38d39f, #F9A826); background-size: 200%;
+	font-size: 20px; color: rgb(255, 255, 255); font-family: 'Poppins', sans-serif;
+	margin: 16px; margin-left: 120px; cursor: pointer; transition: .5s;}
+.btn-login:hover{background-position: right;}
+.pwd a{color: rgb(142, 144, 247); font-size: 14px; margin-left: 500px;}
+.pwd a:hover{color: #d39538;}
+.register{margin-left: 260px;}
+.register a{color: rgb(142, 144, 247); font-size: 14px;}
+.register a:hover{color: #d39538;}
+#footer {height: 100px;  background-color: #ffffff;}
+a {text-decoration: none; font-weight: bold; color: black}
+a:hover {color: red}
+button:hover {background-color: grey; color: white}

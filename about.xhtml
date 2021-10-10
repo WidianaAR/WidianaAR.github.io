@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css"></link>
 </head>
 <body>
+	<script src="javascript.js"></script>
 	<div id='header'>
 		<table>
 			<td><h2>Pet Yourself</h2></td>
@@ -25,7 +26,7 @@
 				<td style="text-align:justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque pellentesque odio tellus turpis quam gravida. Diam ultrices eleifend commodo iaculis viverra dictum sit. Vitae turpis turpis morbi eget vitae scelerisque. Morbi amet in potenti egestas. Dictum quis accumsan viverra orci augue adipiscing urna elementum viverra. Et tincidunt in morbi scelerisque ac scelerisque a, egestas id. Nam sed eget in adipiscing leo sit sollicitudin lacinia. Turpis viverra ipsum nunc, enim sed aenean non. Consequat interdum parturient faucibus placerat massa. Erat mi viverra sit eu faucibus eget rutrum consectetur bibendum. Justo, risus, condimentum in placerat.</td>
 			</tr>
 			<tr>
-				<td style="text-align:center; padding-bottom:50px"><button id="tombol">Beli sekarang!</button></td>
+				<td style="text-align:center; padding-bottom:50px"><a href="shop0.xhtml"><button id="tombol">Beli sekarang!</button></a></td>
 			</tr>
 		</table>
 	</div>
@@ -41,37 +42,60 @@
 				<td><a href="shop.xhtml"><img src="gambar/hamster2.png" style="height:220px; width:200px"></img></a></td>
 				<td><a href="shop.xhtml"><img src="gambar/kura.png" style="height:220px; width:200px"></img></a></td>
 			</tr>
+			<br></br><br></br><br></br>
+			<tr>
+				<td colspan="3"><h1>Kami tersedia di berbagai platform</h1></td>
+				<td colspan="3" rowspan="2" align="center"><img src="gambar/sosmed.png" style="height:250px; width:400px"></img></td>
+			</tr>
+			<tr>
+				<td colspan="3"><a href="platforms.xhtml"><button id="tombol">Cek Disini!</button></a></td>
+			</tr>
+			<br></br><br></br><br></br>
 		</table>
 	</div>
 	<div id="footer2">
-		<table>
-			<tr>
-				<td rowspan="4" style="font-size:40px; font-family:cursive">Kontak Kami</td>
-				<td style="padding-left:300px; padding-top:50px">Nama anda</td>
-			</tr>
-			<tr>
-				<td style="padding-left:300px"><input type="text"></input></td>
-			</tr>
-			<tr>
-				<td style="padding-left:300px">E-mail anda</td>
-			</tr>
-			<tr>
-				<td style="padding-left:300px"><input type="text"></input></td>
-			</tr>
-			<tr>
-				<td>Silahkan tinggalkan pesan anda,</td>
-				<td style="padding-left:300px">Pesan anda</td>
-			</tr>
-			<tr>
-				<td rowspan="3" style="vertical-align:top">pada kolom yang tersedia</td>
-			</tr>
-			<tr>
-				<td style="padding-left:300px"><input type="text" style="height:150px"></input></td>
-			</tr>
-			<tr>
-				<td style="padding-left:300px; text-align:right"><button>Post</button></td>
-			</tr>
-		</table>
+		<form name="komen">
+			<table>
+				<tr>
+					<td rowspan="4" style="font-size:40px; font-family:cursive">Kontak Kami</td>
+					<td colspan="2" style="padding-left:300px; padding-top:50px">Nama anda</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="padding-left:300px"><input type="text" name="nama"></input></td>
+				</tr>
+				<tr>
+					<td colspan="2" style="padding-left:300px">E-mail anda</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="padding-left:300px"><input type="email" name="email"></input></td>
+				</tr>
+				<tr>
+					<td>Silahkan tinggalkan pesan anda,</td>
+					<td style="padding-left:300px">Pesan anda</td>
+				</tr>
+				<tr>
+					<td rowspan="3" style="vertical-align:top">pada kolom yang tersedia</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="padding-left:300px"><input type="text" style="height:150px" name="teks"></input></td>
+				</tr>
+				<tr>
+					<td style="padding-left:300px; text-align: right;"><button type="reset">Cancel</button></td>
+					<td align="right"><button type="button" onclick='inputkomen()'>Post</button></td>
+				</tr>
+			</table>
+			<br></br>
+			<table border="1em" id="tabel_pesan">
+				<thead>
+					<tr>
+						<th>Nama</th>
+						<th>Email</th>
+						<th>Pesan</th>
+					</tr>
+				</thead>
+			</table>
+			<br></br>
+		</form>
 	</div>
 </body>
 </html>

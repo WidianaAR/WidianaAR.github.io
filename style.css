@@ -1,7 +1,6 @@
 body {margin: 0px; padding: 0px; background-color: #FFE898}
-#header {height: 75px; padding-left: 110px}
-#isi {background-color: white; padding-left: 110px; padding-right: 110px}
-#footer {height: 100px; padding-left: 70px; color: white; background-color: #FF9A00;}
+#header {height: 75px; padding-left: 9%}
+#isi {background-color: white; padding-left: 9%; padding-right: 9%}
 a {text-decoration: none; font-weight: bold; color: black}
 a:hover {color: red}
 img {-webkit-transform: scale(1);
@@ -10,11 +9,35 @@ img {-webkit-transform: scale(1);
 	transition: .3s ease-in-out;}
 img:hover {-webkit-transform: scale(1.1); transform: scale(1.1);}
 button:hover {background-color: grey; color: white}
+input {width:300px; height: 25px; border-radius: 10px; border: 0}
 #tombol {border-radius: 15px; width: 500px; height: 50px; color: white; background: #FF9A00; font-size: 20px}
 #tombol:hover {background-color: #FFE898; color: black}
-#isi2 {background-color: #F2F2F2; padding-left: 160px; height: 400px}
-#footer2 {height: 500px; padding-left: 240px; color: white; background-color: #FF9A00;}
+#footer {padding-left: 70px; color: white; background-color: #FF9A00;}
+#isi2 {background-color: #F2F2F2; padding-left: 160px;}
+#isi3 {background-color: #F2F2F2; padding-left: 100px; padding-right: 100px;}
+.btn-primary {color: white; background-color: #63f256;}
+.btn-primary:hover {background-color: #2a93cf;}
+.shop-item-price {color: rgb(8, 8, 8);}
+.cart-header {font-weight: bold; font-size: 20px; color: rgb(15, 15, 15);}
+.cart-column {display: flex; align-items: center; border-bottom: 1px solid black; margin-right: 30px;
+    padding-bottom: 10px; margin-top: 10px;}
+.cart-row { display: flex;}
+.cart-item {width: 500px;}
+.cart-price {width: 200px;font-size: 20px;color: rgb(31, 31, 31);}
+.cart-quantity {width: 350px;}
+.cart-item-title {color: rgb(17, 17, 17); margin-left: 100px; font-size: 20px;}
+.cart-item-image {width: 75px;height: auto; border-radius: 10px;}
+.btn-danger {color: white;background-color: #301818;border: none;border-radius: 5px;font-weight: bold;}
+.btn-danger:hover {background-color: #c75858;}
+.cart-quantity-input {height: 34px; width: 50px; border-radius: 5px; border: 1px solid #0e1518; background-color: #eee;
+    color: #333;padding: 0;text-align: center;font-size: 15px; margin-right: 25px;}
+.cart-row:last-child {border-bottom: 1px solid black;}
+.cart-row:last-child .cart-column {border: none;}
+.cart-total-title {font-weight: bold;font-size: 25px;color: black; margin-right: 20px;}
+.cart-total-price {color: #333;font-size: 20px;}
+.btn-purchase {display: block; margin: 40px auto 80px auto; font-size: 20px; border-radius: 10px;}
+#footer2 {padding-left: 16%; color: white; background-color: #FF9A00;}
 #footer2 td {padding-top: 10px; font-size: 20px}
-#footer2 td input {width:300px; height: 25px; border-radius: 10px; border: 0}
 #footer2 button {height: 40px; width: 60px; border-radius: 5px; border: 0; font-weight: bold; background-color: #4281F8; color: white}
 #footer2 button:hover {background-color: #A4C3FF; color:black;}
+#tabel_pesan th {padding: 0em 6.8em; font-size:1.1em;}

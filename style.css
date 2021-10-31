@@ -1,6 +1,9 @@
+html, body {height: 100%}
 body {margin: 0px; padding: 0px; background-color: #FFE898}
-#header {height: 75px; padding-left: 9%}
+#header {height: 15%; font-size: 1.3vw; width: 100%;}
+#header table {width: 85%; text-align: center;}
 #isi {background-color: white; padding-left: 9%; padding-right: 9%}
+#isi_ac {background-color: white; width: 100%}
 a {text-decoration: none; font-weight: bold; color: black}
 a:hover {color: red}
 a.border-putih {
@@ -13,11 +16,6 @@ a.border-putih {
     font-weight: bold;
 }
 a.border-putih:hover {background: #F9A826; text-decoration: none;}
-#isi .side_kanan{float: right; margin-right: 100px; margin-top: 25px;}
-.login h1{margin-left: 300px; color: #3F3D56; margin-top: 50px;}
-.login p{margin-left: 100px;}
-.login input{height: 25px; width: 500px; margin-left: 100px;
-}
 img {-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
@@ -28,7 +26,8 @@ input {width:300px; height: 25px; border-radius: 10px; border: 0}
 #tombol {border-radius: 15px; width: 500px; height: 50px; color: white; background: #FF9A00; font-size: 20px}
 #tombol:hover {background-color: #FFE898; color: black}
 #footer {padding-left: 70px; color: white; background-color: #FF9A00;}
-#isi2 {background-color: #F2F2F2; padding-left: 160px;}
+#isi2 {background-color: #F2F2F2; width: 100%}
+#isi2 table td { text-align:center}
 #isi3 {background-color: #F2F2F2; padding-left: 100px; padding-right: 100px;}
 .btn-primary {color: white; background-color: #63f256;}
 .btn-primary:hover {background-color: #2a93cf;}
@@ -51,7 +50,7 @@ input {width:300px; height: 25px; border-radius: 10px; border: 0}
 .cart-total-title {font-weight: bold;font-size: 25px;color: black; margin-right: 20px;}
 .cart-total-price {color: #333;font-size: 20px;}
 .btn-purchase {display: block; margin: 40px auto 80px auto; font-size: 20px; border-radius: 10px;}
-#footer2 {padding-left: 16%; color: white; background-color: #FF9A00;}
+#footer2 {width: 100%; color: white; background-color: #FF9A00;}
 #footer2 td {padding-top: 10px; font-size: 20px}
 #footer2 button {height: 40px; width: 60px; border-radius: 5px; border: 0; font-weight: bold; background-color: #4281F8; color: white}
 #footer2 button:hover {background-color: #A4C3FF; color:black;}
